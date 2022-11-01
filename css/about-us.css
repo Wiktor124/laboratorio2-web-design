@@ -40,7 +40,7 @@ p {
 .about span {
   font-size: 0.75rem;
   color: #303030;
-}
+} 
  
 /* Mobile Clinic */
 .background__mobile--clinic{
@@ -71,4 +71,14 @@ p {
 
 .clinic__image--container {
   flex-basis: 570px;
+}
+
+
+/* Cards */
+.cards img {
+  max-width: 97px;
+}
+
+.cards li:first-child img {
+  max-width: 111px;
 }
