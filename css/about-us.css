@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  --background-section-grey: #e6e6e6;
+  --background-section-transparent: transparent;
+}
+
+h2,
+h1 {
+  font-size: 2.25rem;
+  color: #e27d60;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+/* About Us */
+.background__about {
+  background: linear-gradient(
+    to left,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 50%,
+    var(--background-section-transparent) 50%
+  );
+}
+
+.about {
+  padding: 2.5em 0;
+  background-color: var(--background-section-grey);
+}
+
+.about div {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.about span {
+  font-size: 0.75rem;
+  color: #303030;
+}
+ 
+/* Mobile Clinic */
+.background__mobile--clinic{
+  background: linear-gradient(
+    to right,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 50%,
+    var(--background-section-transparent) 50%
+  );
+}
+
+.mobile__clinic {
+  display: flex;
+  padding: 60px 0;
+  gap: 100px;
+  background: linear-gradient(
+    to right,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 76%,
+    var(--background-section-transparent) 76%
+  );
+}
+
+.clinic__text--container {
+  flex-basis: 500px;
+  text-align: right;
+}
+
+.clinic__image--container {
+  flex-basis: 570px;
+}
