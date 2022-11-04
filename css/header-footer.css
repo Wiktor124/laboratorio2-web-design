@@ -1,28 +1,31 @@
-ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+:root {
+  --orange: #E27D60;
 }
 
-a{
-  text-decoration: none;
-  color: black;
+.box-container {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.container-header{
-  margin-top: 50px;
+.setting-ol {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  gap: 15px;
 }
 
-.box-container{
-display:flex;
-justify-content: space-around;
+.setting-ol li:nth-child(1) a {
+  color: var(--orange)
 }
 
-li{
-  display: inline;
-  margin-right: 5px;
+li>a:hover {
+  color: var(--orange);
 }
 
-.buscador img{
+.search img {
   margin-right: 15px;
 }
+
+/*FOOTER*/
