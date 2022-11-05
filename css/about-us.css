@@ -1,10 +1,9 @@
 body {
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
   --background-section-grey: #e6e6e6;
   --background-section-transparent: transparent;
 }
+
+.margin__bottom { margin-bottom: 100px !important; }
 
 h2,
 h1 {
@@ -19,6 +18,16 @@ h1 {
   border-radius: 2px;
   font-weight: bold;
   border: none;
+}
+
+input[type="email"], input[type="text"] {
+  border-radius: 3px;
+  border: none;
+}
+
+input::placeholder {
+  font-size: 1.125rem;
+  color: #292929;
 }
 
 /* About Us */
@@ -99,7 +108,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   gap: 100px;
-  /* flex-wrap: wrap; */
 }
 
 .cards__ul li {
@@ -160,7 +168,6 @@ h1 {
     var(--background-section-grey) 76%,
     var(--background-section-transparent) 76%
   );
-  /* flex-wrap: wrap; */
 }
 
 .relax__text--container {
@@ -191,9 +198,7 @@ h1 {
 }
 
 /* Just for you */
-.just__for--you--background {
-  background: url(../assets/images/about/just-for-you-background.png) no-repeat center;
-}
+.just__for--you--background { background: url(../assets/images/about/just-for-you-background.png) no-repeat center; background-size: cover;}
 
 .just__for--you--container {
   display: flex;
@@ -215,12 +220,9 @@ h1 {
   width: 100%;
   padding: 0.625rem 1.875rem;
   border-radius: 3px;
-  font-size: 1.125rem;
+
 }
-.just__input input::placeholder {
-  font-size: 1.125rem;
-  color: #292929;
-}
+
 .just__input input[type="text"] { margin-bottom: 1.25rem; }
 
 .just__input input[type="email"] { margin-bottom: 2.5rem; }
@@ -281,10 +283,14 @@ h1 {
   background-color: var(--background-section-grey);
 }
 
+.our__container {
+  padding: 100px 0;
+}
+
 .our__review {
   display: flex;
   gap: 30px;
-  padding: 6.25rem 0 3.75rem 0;
+  margin-bottom: 3.75rem;
 }
 
 .our__text--container {
@@ -330,6 +336,50 @@ h1 {
 
 .slide {
   max-width: 205px;
-  margin: 40px auto 100px;
+  margin: 40px auto 0;
 }
 
+
+/* Join our newssellers. */
+.join__background { 
+  background: url(../assets/images/about/join-background.png) no-repeat center; background-size: cover;
+}
+
+.join__container {
+  display: flex;
+  gap: 30px;
+  padding: 70px 0;  
+}
+.join__text--container { flex-basis: 370px; }
+
+.join__text--container * { color: #fff; }
+
+.get_45{ color: #e27d60; }
+
+.join__text--container + div { flex-basis: 770px; }
+
+.join__form {
+  display: flex;
+  width: 100%;
+  margin-top: 55px;
+}
+
+.join__form input[type="email"] {
+  padding: 8px 1.875rem;
+  margin-right: 30px;
+  flex-grow: 1;
+}
+
+@media (max-width: 1125px) {
+  html { font-size: 62.5%;}
+  
+  .background__about {
+    background: unset;
+  }
+  
+  .about {
+    padding: 2.5em 0;
+    background-color: unset;
+  }
+  
+}
