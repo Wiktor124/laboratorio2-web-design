@@ -1,1 +1,28 @@
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.container-header{
+  margin-top: 50px;
+}
+
+.box-container{
+display:flex;
+justify-content: space-around;
+}
+
+li{
+  display: inline;
+  margin-right: 5px;
+}
+
+.buscador img{
+  margin-right: 15px;
+}
