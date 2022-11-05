@@ -12,8 +12,13 @@ h1 {
   color: #e27d60;
 }
 
-p {
-  font-size: 1.125rem;
+.btn {
+  background-color: #303030;
+  color: #e6e6e6;
+  padding: 0.625rem 2.25rem;
+  border-radius: 2px;
+  font-weight: bold;
+  border: none;
 }
 
 /* About Us */
@@ -40,10 +45,10 @@ p {
 .about span {
   font-size: 0.75rem;
   color: #303030;
-} 
- 
+}
+
 /* Mobile Clinic */
-.background__mobile--clinic{
+.background__mobile--clinic {
   background: linear-gradient(
     to right,
     var(--background-section-grey) 0%,
@@ -73,8 +78,10 @@ p {
   flex-basis: 570px;
 }
 
+/*******
+ Cards 
+********/
 
-/* Cards */
 .cards img {
   max-width: 97px;
 }
@@ -82,3 +89,247 @@ p {
 .cards li:first-child img {
   max-width: 111px;
 }
+
+.cards {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.cards__ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  /* flex-wrap: wrap; */
+}
+
+.cards__ul li {
+  max-width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards__img {
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px -11px rgba(66, 68, 90, 0.50);
+}
+.card__img1 {
+  background: url(../assets/icon/about/deep-tissue.svg) no-repeat center;
+}
+
+.card__img2 {
+  background: url(../assets/icon/about/wellness.svg) no-repeat center;
+}
+
+.card__img3 {
+  background: url(../assets/icon/about/reflexology.svg) no-repeat center;
+}
+
+.cards__ul h3 {
+  font-size: 2.25rem;
+  margin: 3px 0 10px 0;
+}
+
+.cards p {
+  font-size: 1rem;
+}
+
+
+/* Relax and Heal */
+
+.background__relax {
+  background: linear-gradient(
+    to left,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 50%,
+    var(--background-section-transparent) 50%
+  );
+}
+
+.relax__container {
+  display: flex;
+  padding: 4.375rem 0;
+  gap: 100px;
+  background: linear-gradient(
+    to left,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 76%,
+    var(--background-section-transparent) 76%
+  );
+  /* flex-wrap: wrap; */
+}
+
+.relax__text--container {
+  flex-basis: 500px;
+  text-align: left;
+}
+
+.relax__image--container {
+  flex-basis: 570px;
+}
+
+.relax__text--container p {
+  margin-bottom: 40px; 
+}
+
+/* Treatments */
+.treatments {
+  text-align: center;
+}
+.treatments__images {
+  display: flex;
+  gap: 0 3px;
+  justify-content: center;
+  flex-wrap :wrap;
+}
+.treatments__images div {
+  max-width: 290px;
+}
+
+/* Just for you */
+.just__for--you--background {
+  background: url(../assets/images/about/just-for-you-background.png) no-repeat center;
+}
+
+.just__for--you--container {
+  display: flex;
+  padding: 4.375rem 0;
+  gap: 100px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.just__text--container { flex-basis: 370px; }
+
+.just__text { color: #e6e6e6 !important; }
+
+.just__text--span { color: #e27d60; }
+
+.just__form--container { flex-basis: 570px; }
+
+.just__input input {
+  width: 100%;
+  padding: 0.625rem 1.875rem;
+  border-radius: 3px;
+  font-size: 1.125rem;
+}
+.just__input input::placeholder {
+  font-size: 1.125rem;
+  color: #292929;
+}
+.just__input input[type="text"] { margin-bottom: 1.25rem; }
+
+.just__input input[type="email"] { margin-bottom: 2.5rem; }
+
+
+/* Masters */
+.masters {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.masters__text {
+  margin: 0 auto 40px;
+  max-width: 770px;
+  text-align: center;
+}
+
+.flex__masters {
+  display: flex;
+}
+
+.masters__ul {
+  flex-flow: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.masters__image { position: relative; }
+
+.masters__redes {
+  position: absolute;
+  right: 75px;
+  bottom: -10px;
+  left: 75px;
+  gap: 14px;
+  padding: 0.4375rem 0.875rem;
+  border-radius: 4px;
+  box-shadow: 0px 0px 20px -11px rgba(66, 68, 90, 0.50);
+  background-color: #fff;
+}
+.masters__button {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+
+/* Brands */
+.brands ul {
+  display: flex;
+  gap: 120px;
+}
+
+.brands li { flex-basis: 164px; }
+
+
+/* Our Reviews */
+.our {
+  background-color: var(--background-section-grey);
+}
+
+.our__review {
+  display: flex;
+  gap: 30px;
+  padding: 6.25rem 0 3.75rem 0;
+}
+
+.our__text--container {
+  text-align: right;
+  flex-basis: 570px;
+}
+
+.comments__ul {
+  display: flex;
+  gap: 30px;
+}
+
+.comments__ul li { max-width: 370px; }
+
+.comments__text {
+  padding: calc(1.875rem - 2px);
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.comments__text p { margin: 0;}
+
+.comments__ul footer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.comments__image {flex-basis: 50px;}
+
+.comment_information { flex-basis: 100px;}
+
+.comment_information h4 {
+  font-size: 0.875rem;
+  color: #e27d60;
+  margin: 0;
+}
+
+.comment_information span { font-size: 0.75rem; color: #303030;}
+
+.slide {
+  max-width: 205px;
+  margin: 40px auto 100px;
+}
+
