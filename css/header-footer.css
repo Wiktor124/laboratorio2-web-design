@@ -5,6 +5,12 @@
   --white: #FFFFFF;
 }
 
+.container-prueba {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 80%;
+}
+
 .setting-list {
   display: flex;
   gap: 15px;
@@ -35,15 +41,20 @@
   padding: 60px 60px 0px;
 }
 
-.box-footer {
+.footer__flex {
   display: flex;
+  justify-content: space-between;
+}
+
+.box-footer {
+  /* display: flex; */
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-between; */
 }
 
 .box-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -67,9 +78,8 @@
   margin-right: 10px;
 }
 .info-pag {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 95px;
+  /* justify-content: space-between; */
+  /* padding: 0px 95px; */
 }
 
 .info-pag p {
