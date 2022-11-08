@@ -330,7 +330,7 @@ input::placeholder {
   font-size: 0.875rem;
   color: #e27d60;
   margin: 0;
-}
+} 
 
 .comment_information span { font-size: 0.75rem; color: #303030;}
 
@@ -371,7 +371,7 @@ input::placeholder {
 }
 
 @media (max-width: 1125px) {
-  html { font-size: 62.5%;}
+  /* html { font-size: 62.5%;}
   
   .background__about {
     background: unset;
@@ -381,5 +381,5 @@ input::placeholder {
     padding: 2.5em 0;
     background-color: unset;
   }
-  
+   */
 }
