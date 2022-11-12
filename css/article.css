@@ -1,0 +1,151 @@
+body{
+  width: 1920px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #E27D60;
+}
+
+p{
+  color: #303030;
+}
+
+img{
+  size: 100%;
+}
+
+.center-grey{
+  text-align: center;
+  margin-bottom: 100px;
+  background: linear-gradient(to right, color-blanco 0%, color-blanco 19%, color-beige 19%, color-beige 100%);
+
+}
+
+.center{
+  width: 1170px;
+  height: 1500px;
+  margin-left: 375px;
+}
+
+.junto{
+  display: flex;
+}
+
+.parrafo p {
+  margin-left: 30px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.parrafop {
+  margin-top: 60px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.img-center :nth-child(1){
+  margin-left: 230px;
+}
+
+.comment{
+  width: 770px;
+  height: 215px;
+  align-items: center;
+}
+
+.text{ 
+  background-color: #e8a87c;
+  padding: 30px 100px;
+  width: 500px;
+  height: 115px;
+  border: 1px solid #FAEEE5;
+  background-color: #FAEEE5;
+  margin-left: 200px;
+  text-align: center;
+  size: 18px;
+}
+
+.cuerpo{
+  width: 210px;
+  height: 50px; 
+  display: flex;
+  font-size: 14px;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.info0{
+  position: relative;
+  left: 900px;
+}
+
+.info{
+  display: flex;
+  position: relative;
+  left: 375px;
+  gap: 31px;
+  row-gap: 31px;
+  column-gap: 31px;
+  margin-bottom: 150px;
+}
+
+.box{
+  width: 369px;
+  height: 466px;
+  border: 2px #E6E6E6 solid;
+}
+
+.box p {
+  font-size: 14px;
+  color: #303030;
+}
+
+.box a{
+  text-decoration: underline black;
+  font-weight: 10px;
+}
+
+.gray{
+  font-size: 10px;
+  color: rgb(173, 170, 170)
+}
+
+.back{
+  background-image: url(../articleimg/seven.png);
+  width: 1920px;
+  height: 275px;
+}
+
+.back div{
+  position: relative;
+  left: 375px;
+  top: 30px;
+}
+
+.back form{
+  position: relative;
+  top: 100px;
+}
+
+.back div h2{
+  color: #ffffff;
+}
+
+.back div p{
+  color: #ffffff;
+  width: 369px;
+  height: 42px;
+  font-size: 18px;
+}
+
+.back div span{
+  color: #E27D60;
+}
+
+.input{
+  box-sizing: border-box;
+  width: 570px;
+  height: 42px;
+}
