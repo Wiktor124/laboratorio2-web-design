@@ -5,10 +5,17 @@
   --white: #FFFFFF;
 }
 
-.container-prueba {
+.setting-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-header {
   margin: 0 auto;
   max-width: 1170px;
   width: 80%;
+  height: 100px;
+  align-items: center;
 }
 
 .setting-list {
@@ -41,15 +48,14 @@
   padding: 60px 60px 0px;
 }
 
-.footer__flex {
-  display: flex;
-  justify-content: space-between;
+.setting-footer {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 80%;
 }
 
 .box-footer {
-  /* display: flex; */
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 .box-container {
@@ -76,10 +82,6 @@
 
 .setting-a img {
   margin-right: 10px;
-}
-.info-pag {
-  /* justify-content: space-between; */
-  /* padding: 0px 95px; */
 }
 
 .info-pag p {
