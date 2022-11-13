@@ -1,6 +1,7 @@
 body {
   --background-section-grey: #e6e6e6;
   --background-section-transparent: transparent;
+  overflow-x: hidden;
 }
 
 .margin__bottom { margin-bottom: 100px !important; }
@@ -219,6 +220,7 @@ input::placeholder {
 .just__input input {
   width: 100%;
   padding: 0.625rem 1.875rem;
+  box-sizing: border-box;
   border-radius: 3px;
 
 }
@@ -300,6 +302,7 @@ input::placeholder {
 
 .comments__ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -368,4 +371,33 @@ input::placeholder {
   padding: 8px 1.875rem;
   margin-right: 30px;
   flex-grow: 1;
+}
+
+
+@media (max-width: 960px) {
+  html { font-size: 62.5%; }
+  
+  .background__about { background-color: var(--background-section-grey); }
+  
+  .mobile__clinic { display: block; }
+
+  .background__mobile--clinic { background-color: var(--background-section-grey) }
+
+  .cards__ul { display: block; }
+
+  .cards__ul li { margin: 0 auto; }
+
+  .relax__container { flex-wrap: wrap-reverse; }
+
+  .background__relax { background-color: var(--background-section-grey); }
+
+  .just__for--you--container { display: block; }
+
+  .our__review{ display: block; }
+
+  .join__container { display: block; }
+
+  .join__form { flex-wrap: wrap;}
+
+  .join__form input[type="email"] { margin-bottom: 10px;}
 }

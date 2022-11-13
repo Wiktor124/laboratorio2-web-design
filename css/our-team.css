@@ -31,7 +31,7 @@ input::placeholder {
 }
 
 
-/* About Us */
+/* Plan */
 .background__plan {
   background: linear-gradient(
     to left,
@@ -195,4 +195,16 @@ input::placeholder {
 }
 .company {
   color: #e27d60;
+}
+
+@media (max-width: 960px) {
+  html { font-size: 62.5%; }
+
+  .background__plan { background-color: var(--background-section-grey); }
+
+  .background__healthy { background-color: var(--background-section-grey); }
+
+  .healthy__life { display: block; }
+  
+  .ask__container { display: block; }
 }
