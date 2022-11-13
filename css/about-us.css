@@ -369,17 +369,3 @@ input::placeholder {
   margin-right: 30px;
   flex-grow: 1;
 }
-
-@media (max-width: 1125px) {
-  html { font-size: 62.5%;}
-  
-  .background__about {
-    background: unset;
-  }
-  
-  .about {
-    padding: 2.5em 0;
-    background-color: unset;
-  }
-  
-}
