@@ -1,0 +1,151 @@
+body {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #E27D60;
+}
+
+p{
+  color: #303030;
+}
+
+
+.center-grey{
+  background-color: #E6E6E6;
+  width: 1920px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section{
+  display: flex;
+  width: 1260px;
+  height: 700px;
+  background-color: #E6E6E6;
+  margin-bottom: 100px;
+}
+
+.div-section{
+  padding: 50px 50px 50px 100px;
+  text-align: right;
+} 
+
+.two-div{ 
+  width: 500px;
+  height: 800px;
+  margin-left: 3px;
+}
+
+.img{
+  width: 570px;
+  height: 280px;
+  position: absolute;
+  top: 480px;
+  right: 545px;
+}
+
+.article-center{
+  text-align: center;
+}
+
+.img-center{
+  display: block;
+}
+
+
+.anuncio{
+  background-image: url(../imgservice/eight.png) ;
+  text-align: center;
+  padding: 80px 505px;
+  display: flex;
+}
+
+.anuncio h2{
+  color: #ffff;
+}
+
+.alineado{
+  text-align: left;
+  width: 700px;
+  height: 100px;
+}
+
+.alineado h2{
+  color: #fff;
+  font-size: 30px;
+}
+
+.alineado span{
+  color: #E27D60;
+}
+
+.alineado p{
+  color: #fff;
+  width: 583px;
+  height: 63px;
+}
+
+.desc{
+  font-size: 50px;
+}
+
+.div-three{
+  width: 1170px;
+  height: 842px;
+  padding: 100px 375px;
+}
+
+.div-three :nth-child(1){
+  display: flex;
+}
+
+.margen{
+  margin-left: 100px;
+  text-align: left;
+}
+
+.block{
+  display: flex;
+  margin-top: 70px;
+}
+
+.block img{
+  margin-left: 100px;
+}
+
+.pre-footer{
+  background-color: #E6E6E6;
+}
+
+.masaje {
+  display: flex;
+  padding: 100px 375px 60px 375px;
+}
+
+.masaje div{
+  text-align: right;
+  margin-right: 10px;
+}
+
+.forma{
+  display: flex;
+  margin-left: 320px;
+}
+
+.comentarios {
+  background-color: #fff ;
+  color: #1c1c1c;
+  width: 370px;
+  height: 90px;
+  padding: 30px;
+  margin-left: 20px ;
+}
+
+.cuerpo{
+  width: 173 px;
+  height: 80px; 
+  display: flex;
+  margin-left: 20px;
+}

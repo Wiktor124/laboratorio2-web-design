@@ -5,6 +5,19 @@
   --white: #FFFFFF;
 }
 
+.setting-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-header {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 80%;
+  height: 100px;
+  align-items: center;
+}
+
 .setting-list {
   display: flex;
   gap: 15px;
@@ -35,15 +48,19 @@
   padding: 60px 60px 0px;
 }
 
+.setting-footer {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 80%;
+}
+
 .box-footer {
-  display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 .box-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -67,7 +84,6 @@
   width: 15px;
   margin-right: 10px;
 }
-
 .info-pag {
   display: flex;
   justify-content: space-between;
