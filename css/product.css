@@ -49,12 +49,6 @@ span {
   text-align: center;
 }
 
-.container {
-  max-width: 1170px;
-  width: 80%;
-  margin: 0 auto;
-}
-
 .background_nav {
   background-color: var(--orange);
 }
