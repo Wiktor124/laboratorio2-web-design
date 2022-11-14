@@ -38,7 +38,7 @@
 }
 
 .search img {
-  margin-right: 15px;
+  margin-left:  15px;
 }
 
 /*FOOTER*/
@@ -87,7 +87,6 @@
 .info-pag {
   display: flex;
   justify-content: space-between;
-  padding: 0px 95px;
 }
 
 .info-pag p {
