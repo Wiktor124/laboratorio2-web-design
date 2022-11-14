@@ -29,6 +29,10 @@ span {
   background-color: var(--background-grey);
 }
 
+.container_color p{
+  font-size: 12px;
+}
+
 .background_color {
   background: linear-gradient(to left,
       var(--background-grey) 0%,
