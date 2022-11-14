@@ -2,7 +2,6 @@
   --orange: #E27D60;
   --background-transparent: transparent;
   --background-grey: #e6e6e6;
-  --color_p: #303030;
 }
 
 /*general*/
@@ -10,10 +9,6 @@ h3 {
   font-size: 36px;
   font-weight: bold;
   color: var(--orange);
-}
-
-p {
-  color: var(--color_p);
 }
 
 span {
