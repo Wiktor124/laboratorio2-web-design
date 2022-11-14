@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header-footer.css">
   <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-  <link rel="stylesheet" href="/css/general-styles.css">
+  <link rel="stylesheet" href="css/general-styles.css">
 </head>
 
 <body>
@@ -52,55 +52,73 @@
 
 
   <main>
-    <div>
 
-      <img src="/imghome/toallas.svg" alt="articulos de spa">
+    <section>
 
-      <div>
-        <h1>There is nothing better than a <span>quick massage.</span></h1>
-        <p>Tempor etiam ipsum pellentesque eget pretium consectetur pellentesque ultrices sagittis. Elit ut ultricies
-          donec a at odio ultricies tellus.</p>
-        <button><a href="#">Book an appointment</a></button>
+      <div class="container_flex gap_img">
+        <div>
+          <img src="/imghome/toallas.svg" alt="articulos de spa">
+        </div>
+
+        <div class="container">
+          <h1>There is nothing better than a <span>quick massage.</span></h1>
+          <p>Tempor etiam ipsum pellentesque eget pretium consectetur pellentesque ultrices sagittis. Elit ut ultricies
+            donec a at odio ultricies tellus.</p>
+          <div>
+            <a class="btn_black" href="#">Book an appointment</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="container fix_around">
+
+        <div class="centrado">
+          <img src="/imghome/masaje.svg" alt="persona realizando masaje">
+          <h2>Deep Tissue</h2>
+          <p>Lorem ipsum dolor amet, consect risu adipiscing elit do</p>
+        </div>
+
+        <div class="centrado">
+          <img src="/imghome/rocas.svg" alt="icono de rocas">
+          <h2>Wellness</h2>
+          <p>Lorem ipsum dolor amet, consect risu adipiscing elit do</p>
+        </div>
+
+        <div class="centrado">
+          <img src="/imghome/rostro.svg" alt="icono de un rostro de lado">
+          <h2>Reflexology</h2>
+          <p>Lorem ipsum dolor amet, consect risu adipiscing elit do</p>
+        </div>
+
       </div>
 
-    </div>
+    </section>
 
-    <div>
+    <section>
+      <div class="background_color">
 
-      <div>
-        <img src="/imghome/masaje.svg" alt="persona realizando masaje">
-        <h2>Deep Tissue</h2>
-        <p>Lorem ipsum dolor amet, consect risu adipiscing elit do</p>
+        <div class="container container_color centrado">
+
+          <div class="container_sin_between">
+            <div>
+              <p>We see the results.</p>
+              <h2>Give us a visit.</h2>
+              <p>Ut donec suscipit nunc volutpat faucibus. Ut penatibus etiam diam facilisi at nibh nulla auctor lorem.
+                Accumsan vulputate euismod massa sit egestas. Aliquet a scelerisque enim, arcu rutrum adipiscing
+                fringilla
+                risus. Ullamcorper consequat donec euismod mi pulvinar.</p>
+              <button><a href="#">Read More</a></button>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <img src="/imghome/rocas.svg" alt="icono de rocas">
-        <h2>Wellness</h2>
-        <p>Lorem ipsum dolor amet, consect risu adipiscing elit do</p>
-      </div>
-
-      <div>
-        <img src="/imghome/rostro.svg" alt="icono de un rostro de lado">
-        <h2>Reflexology</h2>
-        <p>Lorem ipsum dolor amet, consect risu adipiscing elit do</p>
-      </div>
-
-    </div>
-
-    <div>
-
-      <div>
-        <p>We see the results.</p>
-        <h2>Give us a visit.</h2>
-        <p>Ut donec suscipit nunc volutpat faucibus. Ut penatibus etiam diam facilisi at nibh nulla auctor lorem.
-          Accumsan vulputate euismod massa sit egestas. Aliquet a scelerisque enim, arcu rutrum adipiscing fringilla
-          risus. Ullamcorper consequat donec euismod mi pulvinar.</p>
-        <button><a href="#">Read More</a></button>
-      </div>
-
-      <img src="/imghome/mujer.svg" alt="Mujer recostada en una camilla">
-
-    </div>
+            <div>
+              <img src="/imghome/mujer.svg" alt="Mujer recostada en una camilla">
+            </div>
+    </section>
 
     <div>
       <p>Pricing</p>
@@ -430,13 +448,13 @@
             <label for="email"></label>
             <input type="input" type="email" name="email">
         </div>
-        
+
         <div>
           <input type="submit" value="Subscribe">
         </div>
         </form>
       </div>
-      
+
   </main>
 
   <footer class="container-footer">
