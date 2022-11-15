@@ -1,0 +1,55 @@
+:root {
+  --orange: #E27D60;
+  --background-transparent: transparent;
+  --background-grey: #e6e6e6;
+}
+
+/*There is nothing better*/
+
+.container_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_sin_between {
+  display: flex;
+}
+
+.gap_img {
+  gap: 100px;
+  align-items: center;
+}
+
+.btn_black {
+  background-color: black;
+  color: #e6e6e6;
+  padding: 10px 36px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  letter-spacing: 2px;
+}
+
+.centrado {
+  text-align: center;
+  width: 20%;
+
+}
+
+.fix_around {
+  gap: 160px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container_color {
+  padding: 2.625rem 0;
+  background-color: var(--background-grey);
+}
+
+.background_color {
+  background: linear-gradient(to right,
+      var(--background-grey) 0%,
+      var(--background-grey) 50%,
+      var(--background-transparent) 50%);
+}

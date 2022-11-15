@@ -1,0 +1,403 @@
+body {
+  --background-section-grey: #e6e6e6;
+  --background-section-transparent: transparent;
+  overflow-x: hidden;
+}
+
+.margin__bottom { margin-bottom: 100px !important; }
+
+h2,
+h1 {
+  font-size: 2.25rem;
+  color: #e27d60;
+}
+
+.btn {
+  background-color: #303030;
+  color: #e6e6e6;
+  padding: 0.625rem 2.25rem;
+  border-radius: 2px;
+  font-weight: bold;
+  border: none;
+}
+
+input[type="email"], input[type="text"] {
+  border-radius: 3px;
+  border: none;
+}
+
+input::placeholder {
+  font-size: 1.125rem;
+  color: #292929;
+}
+
+/* About Us */
+.background__about {
+  background: linear-gradient(
+    to left,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 50%,
+    var(--background-section-transparent) 50%
+  );
+}
+
+.about {
+  padding: 2.5em 0;
+  background-color: var(--background-section-grey);
+}
+
+.about div {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.about span {
+  font-size: 0.75rem;
+  color: #303030;
+}
+
+/* Mobile Clinic */
+.background__mobile--clinic {
+  background: linear-gradient(
+    to right,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 50%,
+    var(--background-section-transparent) 50%
+  );
+}
+
+.mobile__clinic {
+  display: flex;
+  padding: 60px 0;
+  gap: 100px;
+  background: linear-gradient(
+    to right,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 76%,
+    var(--background-section-transparent) 76%
+  );
+}
+
+.clinic__text--container {
+  flex-basis: 500px;
+  text-align: right;
+}
+
+.clinic__image--container {
+  flex-basis: 570px;
+}
+
+/*******
+ Cards 
+********/
+
+.cards img {
+  max-width: 97px;
+}
+
+.cards li:first-child img {
+  max-width: 111px;
+}
+
+.cards {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.cards__ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.cards__ul li {
+  max-width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards__img {
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px -11px rgba(66, 68, 90, 0.50);
+}
+.card__img1 {
+  background: url(../assets/icon/about/deep-tissue.svg) no-repeat center;
+}
+
+.card__img2 {
+  background: url(../assets/icon/about/wellness.svg) no-repeat center;
+}
+
+.card__img3 {
+  background: url(../assets/icon/about/reflexology.svg) no-repeat center;
+}
+
+.cards__ul h3 {
+  font-size: 2.25rem;
+  margin: 3px 0 10px 0;
+}
+
+.cards p {
+  font-size: 1rem;
+}
+
+
+/* Relax and Heal */
+
+.background__relax {
+  background: linear-gradient(
+    to left,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 50%,
+    var(--background-section-transparent) 50%
+  );
+}
+
+.relax__container {
+  display: flex;
+  padding: 4.375rem 0;
+  gap: 100px;
+  background: linear-gradient(
+    to left,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 76%,
+    var(--background-section-transparent) 76%
+  );
+}
+
+.relax__text--container {
+  flex-basis: 500px;
+  text-align: left;
+}
+
+.relax__image--container {
+  flex-basis: 570px;
+}
+
+.relax__text--container p {
+  margin-bottom: 40px; 
+}
+
+/* Treatments */
+.treatments {
+  text-align: center;
+}
+.treatments__images {
+  display: flex;
+  gap: 0 3px;
+  justify-content: center;
+  flex-wrap :wrap;
+}
+.treatments__images div {
+  max-width: 290px;
+}
+
+/* Just for you */
+.just__for--you--background { background: url(../assets/images/about/just-for-you-background.png) no-repeat center; background-size: cover;}
+
+.just__for--you--container {
+  display: flex;
+  padding: 4.375rem 0;
+  gap: 100px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.just__text--container { flex-basis: 370px; }
+
+.just__text { color: #e6e6e6 !important; }
+
+.just__text--span { color: #e27d60; }
+
+.just__form--container { flex-basis: 570px; }
+
+.just__input input {
+  width: 100%;
+  padding: 0.625rem 1.875rem;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+}
+
+.just__input input[type="text"] { margin-bottom: 1.25rem; }
+
+.just__input input[type="email"] { margin-bottom: 2.5rem; }
+
+
+/* Masters */
+.masters {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.masters__text {
+  margin: 0 auto 40px;
+  max-width: 770px;
+  text-align: center;
+}
+
+.flex__masters {
+  display: flex;
+}
+
+.masters__ul {
+  flex-flow: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.masters__image { position: relative; }
+
+.masters__redes {
+  position: absolute;
+  right: 75px;
+  bottom: -10px;
+  left: 75px;
+  gap: 14px;
+  padding: 0.4375rem 0.875rem;
+  border-radius: 4px;
+  box-shadow: 0px 0px 20px -11px rgba(66, 68, 90, 0.50);
+  background-color: #fff;
+}
+.masters__button {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+
+/* Brands */
+.brands ul {
+  display: flex;
+  gap: 120px;
+}
+
+.brands li { flex-basis: 164px; }
+
+
+/* Our Reviews */
+.our {
+  background-color: var(--background-section-grey);
+}
+
+.our__container {
+  padding: 100px 0;
+}
+
+.our__review {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 3.75rem;
+}
+
+.our__text--container {
+  text-align: right;
+  flex-basis: 570px;
+}
+
+.comments__ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.comments__ul li { max-width: 370px; }
+
+.comments__text {
+  padding: calc(1.875rem - 2px);
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.comments__text p { margin: 0;}
+
+.comments__ul footer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.comments__image {flex-basis: 50px;}
+
+.comment_information { flex-basis: 100px;}
+
+.comment_information h4 {
+  font-size: 0.875rem;
+  color: #e27d60;
+  margin: 0;
+}
+
+.comment_information span { font-size: 0.75rem; color: #303030;}
+
+.slide {
+  max-width: 205px;
+  margin: 40px auto 0;
+}
+
+
+/* Join our newssellers. */
+.join__background { 
+  background: url(../assets/images/about/join-background.png) no-repeat center; background-size: cover;
+}
+
+.join__container {
+  display: flex;
+  gap: 30px;
+  padding: 70px 0;  
+}
+.join__text--container { flex-basis: 370px; }
+
+.join__text--container * { color: #fff; }
+
+.get_45{ color: #e27d60; }
+
+.join__text--container + div { flex-basis: 770px; }
+
+.join__form {
+  display: flex;
+  width: 100%;
+  margin-top: 55px;
+}
+
+.join__form input[type="email"] {
+  padding: 8px 1.875rem;
+  margin-right: 30px;
+  flex-grow: 1;
+}
+
+
+@media (max-width: 960px) {
+  html { font-size: 62.5%; }
+  
+  .background__about { background-color: var(--background-section-grey); }
+  
+  .mobile__clinic { display: block; }
+
+  .background__mobile--clinic { background-color: var(--background-section-grey) }
+
+  .cards__ul { display: block; }
+
+  .cards__ul li { margin: 0 auto; }
+
+  .relax__container { flex-wrap: wrap-reverse; }
+
+  .background__relax { background-color: var(--background-section-grey); }
+
+  .just__for--you--container { display: block; }
+
+  .our__review{ display: block; }
+
+  .join__container { display: block; }
+
+  .join__form { flex-wrap: wrap;}
+
+  .join__form input[type="email"] { margin-bottom: 10px;}
+}

@@ -1,5 +1,31 @@
 :root {
   --orange: #E27D60;
+<<<<<<< HEAD
+=======
+  --color-footer: #303030;
+  --font-weigth: bold;
+  --white: #FFFFFF;
+}
+
+.setting-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-header {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 80%;
+  height: 100px;
+  align-items: center;
+}
+
+.setting-list {
+  display: flex;
+  gap: 15px;
+  font-weight: var(--font-weigth);
+  font-size: 16px;
+>>>>>>> e91771bdbb02f765319e1b5f7e2df7a6bd5ac393
 }
 
 .box-container {
@@ -25,7 +51,61 @@ li>a:hover {
 }
 
 .search img {
-  margin-right: 15px;
+  margin-left:  15px;
 }
 
+<<<<<<< HEAD
 /*FOOTER*/
+=======
+/*FOOTER*/
+
+.container-footer {
+  background-color: var(--color-footer);
+  padding: 60px 60px 0px;
+}
+
+.setting-footer {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 80%;
+}
+
+.box-footer {
+  align-items: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-a>h2 {
+  color: var(--orange);
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+
+.setting-a li {
+  margin-bottom: 23px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.setting-a a {
+  color: #FFFFFF;
+}
+
+.setting-a img {
+  width: 15px;
+  margin-right: 10px;
+}
+.info-pag {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-pag p {
+  color: #E6E6E6;
+}
+>>>>>>> e91771bdbb02f765319e1b5f7e2df7a6bd5ac393
