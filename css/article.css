@@ -1,10 +1,10 @@
-body{
-  width: 1920px;
-  margin: 0 auto;
-}
 
 h1, h2, h3 {
   color: #E27D60;
+}
+
+a{
+  font-weight: 700;
 }
 
 p{
@@ -22,25 +22,16 @@ img{
 
 }
 
-.center{
-  width: 1170px;
-  height: 1500px;
-  margin-left: 375px;
-}
-
 .junto{
   display: flex;
 }
 
 .parrafo p {
-  margin-left: 30px;
   text-align: left;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .parrafop {
-  margin-top: 60px;
-  margin-left: 30px;
   font-size: 18px;
 }
 
@@ -49,9 +40,9 @@ img{
 }
 
 .comment{
-  width: 770px;
-  height: 215px;
+  max-width: 770px;
   align-items: center;
+  margin: 40px auto;
 }
 
 .text{ 
@@ -61,41 +52,50 @@ img{
   height: 115px;
   border: 1px solid #FAEEE5;
   background-color: #FAEEE5;
-  margin-left: 200px;
   text-align: center;
   size: 18px;
 }
 
 .cuerpo{
-  width: 210px;
-  height: 50px; 
+  width: fit-content;
   display: flex;
   font-size: 14px;
-  margin-left: 200px;
-  margin-top: 10px;
-  margin-bottom: 40px;
 }
 
+.cuerpo__img{
+  max-width: 50px;
+  margin-right: 20px;
+}
+
+.cuerpo__img + div h3 {
+  font-size: 0.875rem;
+  margin:  0.375rem 0;
+}
+
+.cuerpo__img + div p{
+  font-size: 0.75rem;
+}
 .info0{
-  position: relative;
-  left: 900px;
+  text-align: center;
+  margin: 41px 0 94px;
 }
 
 .info{
   display: flex;
-  position: relative;
-  left: 375px;
-  gap: 31px;
-  row-gap: 31px;
-  column-gap: 31px;
+  gap: 30px;
   margin-bottom: 150px;
 }
 
-.box{
-  width: 369px;
-  height: 466px;
+.info article {
+  flex-basis: 370px;
+  height: fit-content;
   border: 2px #E6E6E6 solid;
 }
+
+.info__article {
+  padding: 1.25rem 1.875rem 1.875rem;
+}
+
 
 .box p {
   font-size: 14px;
@@ -112,41 +112,41 @@ img{
   color: rgb(173, 170, 170)
 }
 
-.back{
-  background-image: url(../articleimg/seven.png);
-  width: 1920px;
-  height: 275px;
+/* Join our newssellers. */
+.join__background { 
+  background: url(../assets/images/about/join-background.png) no-repeat center; background-size: cover;
 }
 
-.back div{
-  position: relative;
-  left: 375px;
-  top: 30px;
+.join__container {
+  display: flex;
+  gap: 30px;
+  padding: 70px 0;  
+}
+.join__text--container { flex-basis: 370px; }
+
+.join__text--container * { color: #fff; }
+
+.get_45{ color: #e27d60; }
+
+.join__text--container + div { flex-basis: 770px; }
+
+.join__form {
+  display: flex;
+  width: 100%;
+  margin-top: 55px;
 }
 
-.back form{
-  position: relative;
-  top: 100px;
+.join__form input[type="email"] {
+  padding: 8px 1.875rem;
+  margin-right: 30px;
+  flex-grow: 1;
 }
 
-.back div h2{
-  color: #ffffff;
+.btn {
+  background-color: #303030;
+  color: #e6e6e6;
+  padding: 0.625rem 2.25rem;
+  border-radius: 2px;
+  font-weight: bold;
+  border: none;
 }
-
-.back div p{
-  color: #ffffff;
-  width: 369px;
-  height: 42px;
-  font-size: 18px;
-}
-
-.back div span{
-  color: #E27D60;
-}
-
-.input{
-  box-sizing: border-box;
-  width: 570px;
-  height: 42px;
-}
-

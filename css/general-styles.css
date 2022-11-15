@@ -21,6 +21,11 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
+@media  (max-width: 960px) {
+  .container { width: 95%; }
+}
+
 p {
   font-size: 1.125rem;
   color: #303030;
@@ -34,4 +39,3 @@ ul {
 a {
   text-decoration: none;
 }
-

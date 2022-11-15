@@ -5,6 +5,8 @@ body {
 
 .margin__bottom { margin-bottom: 100px !important; }
 
+img{width: 100%;}
+
 h2,
 h1 {
   font-size: 2.25rem;
