@@ -1,7 +1,5 @@
 :root {
   --orange: #E27D60;
-<<<<<<< HEAD
-=======
   --color-footer: #303030;
   --font-weigth: bold;
   --white: #FFFFFF;
@@ -25,7 +23,6 @@
   gap: 15px;
   font-weight: var(--font-weigth);
   font-size: 16px;
->>>>>>> e91771bdbb02f765319e1b5f7e2df7a6bd5ac393
 }
 
 .box-container {
@@ -54,9 +51,6 @@ li>a:hover {
   margin-left:  15px;
 }
 
-<<<<<<< HEAD
-/*FOOTER*/
-=======
 /*FOOTER*/
 
 .container-footer {
@@ -108,4 +102,3 @@ li>a:hover {
 .info-pag p {
   color: #E6E6E6;
 }
->>>>>>> e91771bdbb02f765319e1b5f7e2df7a6bd5ac393
