@@ -1,0 +1,212 @@
+body {
+  --background-section-grey: #e6e6e6;
+  --background-section-transparent: transparent;
+}
+
+.margin__bottom { margin-bottom: 100px !important; }
+
+/* img{width: 100%;} */
+
+h2,
+h1 {
+  font-size: 2.25rem;
+  color: #e27d60;
+}
+
+.btn {
+  background-color: #303030;
+  color: #e6e6e6;
+  padding: 0.625rem 2.25rem;
+  border-radius: 2px;
+  font-weight: bold;
+  border: none;
+}
+
+input[type="email"], input[type="text"] {
+  border-radius: 3px;
+  border: none;
+}
+
+input::placeholder {
+  font-size: 1.125rem;
+  color: #292929;
+}
+
+
+/* Plan */
+.background__plan {
+  background: linear-gradient(
+    to left,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 50%,
+    var(--background-section-transparent) 50%
+  );
+}
+
+.plan {
+  padding: 2.5em 0;
+  background-color: var(--background-section-grey);
+}
+
+.plan div {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.plan span {
+  font-size: 0.75rem;
+  color: #303030;
+}
+
+/*  Live a Healthy Life */
+.background__healthy{
+  background: linear-gradient(
+    to right,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 50%,
+    var(--background-section-transparent) 50%
+  );
+}
+
+.healthy__life{
+  display: flex;
+  padding: 60px 0;
+  gap: 100px;
+  background: linear-gradient(
+    to right,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 75.5%,
+    var(--background-section-transparent) 75.5%
+  );
+}
+
+.healthy__text--container {
+  flex-basis: 500px;
+  text-align: right;
+}
+
+.healthy__image--container {
+  flex-basis: 570px;
+}
+
+.healthy__life--container1 {
+  display: flex;
+  gap: 3px;
+}
+
+
+/* Masters */
+.masters {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.masters__text {
+  margin: 0 auto 40px;
+  max-width: 770px;
+  text-align: center;
+}
+
+.flex__masters {
+  display: flex;
+}
+
+.masters__ul {
+  flex-flow: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.masters__image { position: relative; }
+
+.masters__redes {
+  position: absolute;
+  right: 75px;
+  bottom: -10px;
+  left: 75px;
+  gap: 14px;
+  padding: 0.4375rem 0.875rem;
+  border-radius: 4px;
+  box-shadow: 0px 0px 20px -11px rgba(66, 68, 90, 0.50);
+  background-color: #fff;
+}
+.masters__button {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+
+/* ask us something */
+.background__ask--us {
+  background: url(../assets/images/our/background-image.png) no-repeat center; background-size: cover;
+}
+
+.ask__container {
+  display: flex;
+  gap: 100px;
+  padding: 100px 0;
+  
+}
+
+.ask__text--container {
+  margin-top: 35px;
+  flex-basis: 600px;
+}
+
+.ask__text { font-size: 1rem;}
+
+.ask__text--container > * { color: #fff;}
+
+.ask__form--container {
+  background-color: #fff;
+  padding: 1.875em;
+  border-radius: 3px;
+  flex-basis: 370px;
+}
+.ask__form--title {
+  color: #292929;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+.ask__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ask__form input {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 2px solid #e6e6e6;
+}
+
+.ask__form input::placeholder {
+  color: #e6e6e6;
+  font-size: 1rem;
+}
+
+.ask__form--container p {
+  max-width: 280px;
+  padding-left: 1.25rem;
+  font-size: 0.75rem;
+  background: url(../assets/images/our/email.svg) no-repeat;
+  margin: 10px 0 40px 0;
+}
+.company {
+  color: #e27d60;
+}
+
+@media (max-width: 960px) {
+  html { font-size: 62.5%; }
+
+  .background__plan { background-color: var(--background-section-grey); }
+
+  .background__healthy { background-color: var(--background-section-grey); }
+
+  .healthy__life { display: block; }
+  
+  .ask__container { display: block; }
+}

@@ -1,0 +1,190 @@
+body {
+  --background-section-grey: #e6e6e6;
+  --background-section-transparent: transparent;
+
+}
+
+.margin__bottom { margin-bottom: 100px !important; }
+
+h1, h2, h3 {
+  color: #E27D60;
+}
+
+
+p{
+  color: #303030;
+}
+
+.about {
+  padding: 2.5em 0;
+  background-color: var(--background-section-grey);
+}
+
+.about div {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.about span {
+  font-size: 0.75rem;
+  color: #303030;
+}
+
+.background__about {
+  background: linear-gradient(
+    to left,
+    var(--background-section-grey) 0%,
+    var(--background-section-grey) 50%,
+    var(--background-section-transparent) 50%
+  );
+}
+
+
+.center-grey{
+  background-color: #E6E6E6;
+  flex-basis: 1920px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.section-one{ 
+  display: flex;
+  flex-basis: 80%;
+  height: 690px;
+  background-color: #E6E6E6;
+  margin-bottom: 100px;
+  padding: 50px 50px 50px 100px;
+}
+
+.container{
+  max-width: 1170px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.div-section-one{
+  padding: 50px;
+  text-align: right;
+  font-size: 18px;
+  overflow: hidden; /*Se utiliza para ocultar el desbordamiento del texto al achicarse*/
+
+}
+
+.two-div div{
+  flex-basis: 854px;
+  max-height: 568px;
+  display: flex;
+}
+
+.article-center{
+  text-align: center;
+}
+
+.img-center{
+  display: block;
+}
+
+
+.anuncio{
+  background-image: url(../imgservice/eight.png) ;
+  text-align: center;
+  padding: 80px 505px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.anuncio h2{
+  color: #ffff;
+}
+
+.alineado{
+  text-align: left;
+  flex-basis: 700px;
+  height: 100px;
+}
+
+.alineado h2{
+  color: #fff;
+  font-size: 30px;
+}
+
+.alineado span{
+  color: #E27D60;
+}
+
+.alineado p{
+  color: #fff;
+  flex-basis: 583px;
+  height: 63px;
+}
+
+.desc{
+  font-size: 50px;
+}
+
+.div-three{
+  flex-basis: 1170px;
+  height: 842px;
+  margin-top: 100px;
+  padding: 100px auto;
+  overflow: hidden; /*Se utiliza para ocultar el desbordamiento del texto al achicarse*/
+
+}
+
+.div-three :nth-child(1){
+  display: flex;
+  
+}
+
+.margen{
+  margin-left: 100px;
+  text-align: left;
+}
+
+.block{
+  display: flex;
+  margin-top: 70px;
+  overflow: hidden; /*Se utiliza para ocultar el desbordamiento del texto al achicarse*/
+
+}
+
+.block img{
+  margin-left: 100px;
+}
+
+.pre-footer{
+  background-color: #E6E6E6;
+}
+
+.masaje {
+  display: flex;
+  padding: 100px 100px;
+}
+
+.masaje div{
+  text-align: right;
+  margin-right: 10px;
+}
+
+.forma{
+  display: flex;
+  margin-left: 320px;
+}
+
+.comentarios {
+  background-color: #fff ;
+  color: #1c1c1c;
+  width: 370px;
+  height: 90px;
+  padding: 30px;
+  margin-left: 20px ;
+}
+
+.cuerpo{
+  width: 173 px;
+  height: 80px; 
+  display: flex;
+  margin-left: 20px;
+}

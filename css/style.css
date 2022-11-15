@@ -1,0 +1,405 @@
+:root {
+  --orange: #E27D60;
+  --background-transparent: transparent;
+  --background-grey: #e6e6e6;
+  --font-ligther: Work Sans
+}
+
+body {
+  --background-section-grey: #e6e6e6;
+  --background-section-transparent: transparent;
+}
+
+p {
+  font: var(--font-ligther);
+}
+
+.title_change {
+  font-size: 36px;
+}
+
+/*There is nothing better*/
+
+.container_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_sin_between {
+  display: flex;
+}
+
+.setting_p_massage {
+  padding-right: 50%;
+  margin: 40px 0;
+}
+
+h1 {
+  padding-right: 70%;
+}
+
+h1>span {
+  color: var(--orange);
+}
+
+.gap_img {
+  gap: 100px;
+  align-items: center;
+}
+
+.btn_black {
+  background-color: black;
+  color: #e6e6e6;
+  padding: 10px 36px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  letter-spacing: 2px;
+}
+
+.centrado {
+  text-align: center;
+  width: 20%;
+  margin-bottom: 100px;
+}
+
+.fix_around {
+  gap: 160px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Give us a visit.*/
+
+.background_color {
+  background: linear-gradient(to right,
+      var(--background-grey) 0%,
+      var(--background-grey) 50%,
+      var(--background-transparent) 50%);
+}
+
+.container {
+  max-width: 1170px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container_color {
+  display: flex;
+  padding: 60px 0;
+  gap: 100px;
+  background: linear-gradient(to right,
+      var(--background-section-grey) 0%,
+      var(--background-section-grey) 76%,
+      var(--background-section-transparent) 76%);
+}
+
+.text_container {
+  flex-basis: 500px;
+  text-align: right;
+}
+
+.text_container span {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.text_container p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.text_container h2 {
+  color: var(--orange);
+}
+
+.image_container {
+  flex-basis: 570px;
+}
+
+.btn_black {
+  background-color: black;
+  color: #e6e6e6;
+  padding: 10px 36px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  letter-spacing: 2px;
+}
+
+.margin_section {
+  margin-bottom: 100px;
+}
+
+/*It’s worth the time.*/
+
+.centrado_time {
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.centrado_time_title {
+  color: var(--orange);
+  text-align: center;
+}
+
+.bold_title {
+  margin-bottom: 40px;
+}
+
+.bold_title p {
+  font-size: 12px;
+}
+
+.bold_title span {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 16px
+}
+
+.font {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*Widen your smile.*/
+
+.container_color_smile {
+  display: flex;
+  padding: 60px 0;
+  gap: 100px;
+  background: linear-gradient(to left,
+      var(--background-section-grey) 0%,
+      var(--background-section-grey) 75%,
+      var(--background-section-transparent) 75%);
+}
+
+.background_color_smile {
+  background: linear-gradient(to left,
+      var(--background-grey) 0%,
+      var(--background-grey) 50%,
+      var(--background-transparent) 50%);
+}
+
+.center_box {
+  align-self: center;
+}
+
+.center_box h2 {
+  color: var(--orange);
+}
+
+.margin_img {
+  margin-left: 7px;
+}
+
+/*Treatments*/
+
+.gap_life {
+  gap: 5px;
+}
+
+/*OUR TEAM*/
+
+.setting_p {
+  padding: 0 230px;
+  margin-bottom: 42px;
+}
+
+.box_white {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  right: -75px;
+  background-color: white;
+  width: fit-content;
+  padding: 0px 7px;
+  border-radius: 4px;
+  border: 0.10px solid lightgray;
+}
+
+.box_white img {
+  margin: 7px;
+}
+
+.margin_botton {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.box_text {
+  margin-top: -30px;
+  margin-left: 10%;
+  padding: 0px;
+}
+
+/*Everyone deserves good health.*/
+
+.back_gray {
+  background-color: var(--background-section-grey);
+}
+
+.box_reviews {
+  text-align: right;
+  margin-right: 3%;
+  padding-left: 2%;
+  margin-top: 141px;
+}
+
+.box_reviews h3 {
+  color: var(--orange);
+  font-size: 35px;
+}
+
+.box_img {
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+
+.comments__ul {
+  display: flex;
+  gap: 30px;
+}
+
+.comments__ul li {
+  max-width: 370px;
+  margin-bottom: 40px;
+}
+
+.comments__text {
+  padding: calc(1.875rem - 2px);
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.comments__text p {
+  margin: 0;
+}
+
+.comments__ul footer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.comments__image {
+  flex-basis: 50px;
+}
+
+.comment_information {
+  flex-basis: 100px;
+}
+
+.comment_information h4 {
+  font-size: 0.875rem;
+  color: #e27d60;
+  margin: 0;
+}
+
+.comment_information span {
+  font-size: 0.75rem;
+  color: #303030;
+}
+
+.box_comments {
+  padding-bottom: 100px;
+}
+
+/* Goods that would help you.*/
+
+.text_box span {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.text_box {
+  margin-bottom: 40px;
+}
+
+/*marcas*/
+
+.box_marcas {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Latest news.*/
+
+.border_cards {
+  border-radius: 4px;
+  border: 0.10px solid lightgray;
+}
+
+.card_info {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  right: -75px;
+  background-color: white;
+  width: fit-content;
+  padding: 0px 70px;
+  border-radius: 4px;
+  border: 0.10px solid lightgray;
+}
+
+.espacio_fecha img {
+  margin-right: 5px;
+}
+
+.espacio_texto {
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.espacio_texto>h3 {
+  color: var(--orange);
+}
+
+.margin_top {
+  margin-top: 40px;
+}
+
+/*join*/
+
+.join__background {
+  background: url(../imghome/Rectangle_64.png) no-repeat center;
+  background-size: cover;
+}
+
+.join__container {
+  display: flex;
+  gap: 30px;
+  padding: 70px 0;
+}
+
+.join__text--container {
+  flex-basis: 370px;
+}
+
+.join__text--container * {
+  color: #fff;
+}
+
+.get_45 {
+  color: #e27d60;
+}
+
+.join__text--container+div {
+  flex-basis: 770px;
+}
+
+.join__form {
+  display: flex;
+  width: 100%;
+  margin-top: 55px;
+}
+
+.join__form input[type="email"] {
+  padding: 8px 1.875rem;
+  margin-right: 30px;
+  flex-grow: 1;
+}
